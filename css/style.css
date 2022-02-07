@@ -1,0 +1,133 @@
+/* &display=swap */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+@font-face {
+	font-family: "Bitter";
+	src: url("../fonts/Bitter-Regular.woff2") format("woff2"), url("../fonts/Bitter-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	max-width: 1080px;
+	margin: 0px auto;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.header {
+	max-width: 780px;
+	margin: 0px auto 50px;
+}
+
+.title {
+	margin: 30px 0px;
+	font-weight: 900;
+	font-size: 50px;
+	text-align: center;
+	color: green;
+	text-shadow: 5px 5px 3px #000;
+}
+
+img {
+	width: 100%;
+	max-height: 500px;
+}
+
+.about {
+	margin: 0px 0px 30px 0px;
+	padding: 0 46px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+span {
+	color: red;
+}
+
+a {
+	text-decoration: underline;
+	color: chartreuse;
+}
+
+.image {
+	max-width: 530px;
+	height: 300px;
+	margin: 0px 0px 20px 0px;
+	display: inline-block;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	font-family: "Bitter", serif;
+	color: blue;
+	margin: 0px 0px 20px 0px;
+}
+
+.text {
+	display: inline-block;
+	font-family: "Montserrat", sans-serif;
+	max-width: 530px;
+	height: 100px;
+	padding: 30px;
+	text-shadow: 1px 1px 5px red;
+}
+
+.info {
+	max-height: 200px;
+	overflow: hidden;
+	margin: 0px 0px 20px 0px;
+}
+
+.next {
+	font-family: "Montserrat", sans-serif;
+	padding: 0 100px;
+	max-height: 150px;
+	overflow: scroll;
+	line-height: 1.2;
+	margin: 0px 0px 45px 0px;
+}
+
+.section {
+	margin: 0px 0px 45px 0px;
+	overflow: auto;
+}
+
+.inline {
+	min-width: 1500px;
+}
+
+.image-map {
+	max-width: 50%;
+	margin: 0px 0px 0px 170px;
+}
+
+.location-text {
+	display: inline-block;
+	max-width: 50%;
+	font-weight: 700;
+	padding: 150px 0 0 0;
+}
+
+.location {
+	padding: 25px;
+	margin-bottom: 45px;
+}
+
+.footer {
+	font-size: 45px;
+}
+
+.bottom {
+	width: 100px;
+	margin: 0px auto;
+	text-align: center;
+}
